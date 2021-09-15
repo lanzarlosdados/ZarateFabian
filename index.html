@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Fabian Alejandro Zarate</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <script defer src="js/app.js"></script>
+    
+
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="" class="logo">
+                 <img src="img/fotcv.jpg" alt="programador" height="50" width="50">
+                 <h3 class="titulo">Fabian <br/> Developer</h3>
+            </a>
+            <button class="open-menu" aria-label="Abrir Menu" >
+                <img src="img/icon-menu.png" alt="" height="40" width="40">
+            </button>
+            <ul class="menu">
+               <button class="close-menu" aria-label="Cerrar Menu">
+                <img src="img/icon-close.png" alt="" height="40" width="40">
+            </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#proyects">Proyectos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+    <section class="profile" id="profile">
+        <div class="profile-info">
+            <h2 class="profile-title">Hola, soy <br/> Fabian! </h2>
+            <p class="profile-details">Tengo muchas ganas de aprender e investigar sobre nuevas tecnologías y aplicar mis conocimientos adquiridos de desarollador en los desafíos que se presenten, dentro de un equipo de trabajo dinámico en el cual nos apoyemos mutuamente con las dificultades que puedan surgir. Trabajar en una empresa donde pueda cumplir con las tareas que necesiten y mejorar mi desarrollo profesional.</p>
+            <a href="pdf/ZarateFabian.pdf" class="profile-btn" target="_blank">Downland CV</a>
+        </div>
+        <div class="profile-img-section">
+            <img class="profile-img" src="img/img4.jpg" alt="programador">
+        </div>
+    </section>
+    </div>
+
+    <section class="proyects" id="proyects">
+        <h2 class="skills-title">Proyectos</h2>
+        <div class="content_proyects">
+            <a href="https://lanzarlosdados.github.io/WebNutridialisis/index.html" class="proyect_link" target="_blank">
+               <div class="section_proyects">
+                <img src="img/img1.png" alt="" class="proyects_img">
+                <h2 class="proyect_title">NutriDialisis</h2>
+            </div>
+            </a>
+            <a href="https://lanzarlosdados.github.io/WebTaller/" class="proyect_link" target="_blank">
+               <div class="section_proyects">
+                <img src="img/img2.png" alt="" class="proyects_img">
+                <h2 class="proyect_title">ArteSana</h2>
+            </div>
+            </a>
+            <a href="https://lanzarlosdados.github.io/WebFirstMobile/" class="proyect_link" target="_blank">
+               <div class="section_proyects">
+                <img src="img/img3.png" alt="" class="proyects_img">
+                <h2 class="proyect_title">Web first mobile</h2>
+            </div>
+            </a>
+        </div>
+        </section>
+
+    <div class="horizontal-padding vertical-padding">
+    <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+            <li class="skills-skill">CSS</li>
+            <li class="skills-skill">HTML</li>
+            <li class="skills-skill">JavaScript</li>
+            <li class="skills-skill">Java</li>
+            <li class="skills-skill">PHP</li>
+            <li class="skills-skill">SQL</li>
+        </ul>
+    </section>
+    </div>
+    <section class="contacto" id="contact">
+        <form id="form" class="contacto-form"  action="https://formspree.io/f/xzbyjpoz" method="POST">
+            <h2 class="contacto-title">CONTACTO</h2>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="correo" placeholder="Correo">
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" ></textarea>
+            <input type="submit" value="ENVIAR" id="boton">
+        </form>
+    </section>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
